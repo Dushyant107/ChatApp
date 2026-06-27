@@ -20,6 +20,7 @@ export const connectDB = async () => {
 
   } catch (error) {
     console.error("Database connection failed:", error);
+    
     process.exit(1); // Exit the process with failure code
   }
 };
